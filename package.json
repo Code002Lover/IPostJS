@@ -1,0 +1,33 @@
+{
+  "name": "ipost.js",
+  "version": "1.0.0",
+  "description": "Make your connection to IPost.rocks seamless!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mystikfluu/IPostJS.git"
+  },
+  "keywords": [
+    "IPost.rocks",
+    "IPost",
+    "bot"
+  ],
+  "author": "Code002Lover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mystikfluu/IPostJS/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/Mystikfluu/IPostJS#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "tslib": "^2.4.1"
+  },
+  "dependencies": {
+    "ws": "^8.11.0"
+  }
+}
